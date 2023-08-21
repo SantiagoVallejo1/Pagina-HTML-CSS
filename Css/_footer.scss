@@ -1,0 +1,39 @@
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.Contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.Content-foo{
+    text-align: center;
+}
+
+.Content-foo h4{
+    color: $color-textos;
+    border-bottom: 3px solid #181bb8;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Content-foo p{
+    color: #ccc;
+}
+
+.Titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}

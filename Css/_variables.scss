@@ -1,0 +1,11 @@
+$color-titulo: #151799;
+$color-pagina: #f2f2f2;
+$color-textos: #fff;
+
+@mixin content{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}

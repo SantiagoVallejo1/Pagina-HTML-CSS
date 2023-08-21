@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    height: 600px;
+    background: #2980B9;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffffa1, #6dd4fa69, #297fb9c0), url(../IMG/musicos\ 1.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffffa1, #6dd4fa69, #297fb9c0), url(../IMG/musicos\ 1.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: $color-textos;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: $color-textos;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: $color-textos;
+}
+
+.OLA{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

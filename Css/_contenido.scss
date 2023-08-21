@@ -1,0 +1,35 @@
+.Contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Imagen-1{
+    width: 48%;
+}
+
+.sobre-nosotros .Contenido-textos{
+    width: 48%;
+}
+
+.Contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.Contenido-textos h3 span{
+    background: $color-titulo;
+    color: $color-textos;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.Contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
